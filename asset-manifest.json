@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vertical-type-react/static/css/main.ad0fb0a4.chunk.css",
+    "main.js": "/vertical-type-react/static/js/main.6a51760f.chunk.js",
+    "main.js.map": "/vertical-type-react/static/js/main.6a51760f.chunk.js.map",
+    "runtime-main.js": "/vertical-type-react/static/js/runtime-main.fbdde884.js",
+    "runtime-main.js.map": "/vertical-type-react/static/js/runtime-main.fbdde884.js.map",
+    "static/js/2.ab92c366.chunk.js": "/vertical-type-react/static/js/2.ab92c366.chunk.js",
+    "static/js/2.ab92c366.chunk.js.map": "/vertical-type-react/static/js/2.ab92c366.chunk.js.map",
+    "static/js/3.216d1fb5.chunk.js": "/vertical-type-react/static/js/3.216d1fb5.chunk.js",
+    "static/js/3.216d1fb5.chunk.js.map": "/vertical-type-react/static/js/3.216d1fb5.chunk.js.map",
+    "index.html": "/vertical-type-react/index.html",
+    "static/css/main.ad0fb0a4.chunk.css.map": "/vertical-type-react/static/css/main.ad0fb0a4.chunk.css.map",
+    "static/js/2.ab92c366.chunk.js.LICENSE.txt": "/vertical-type-react/static/js/2.ab92c366.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbdde884.js",
+    "static/js/2.ab92c366.chunk.js",
+    "static/css/main.ad0fb0a4.chunk.css",
+    "static/js/main.6a51760f.chunk.js"
+  ]
+}
