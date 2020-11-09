@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import ActivateButton from './components/activateButton';
+import LettersList from './components/lettersList';
 
 function App() {
+  let [letters, setLetters] = useState([]);
+
+  const keyHandler = function(event){
+    let letter = event.key;
+    let regexp = /[a-zA-Zа-яА-ЯёЁ]/i;
+
+    if (regexp.test(letter) === true && letter.length === 1) {
+        setLetters(letters.concat([letter]));
+    }
+
+    console.log(letters)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="wrapper">
+        <LettersList letters={letters}/>
+        <ActivateButton onKeyDown={keyHandler} />
+      </div>
   );
 }
 
